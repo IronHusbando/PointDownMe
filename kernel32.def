@@ -1,0 +1,15 @@
+LIBRARY kernel32.dll
+EXPORTS
+    CreateThread
+    CloseHandle
+    Sleep
+    GetModuleHandleW
+    DisableThreadLibraryCalls
+    GetCurrentProcessId
+    IsBadReadPtr
+    GetModuleFileNameW
+    CreateFileW
+    WriteFile
+    GetTickCount64
+    VirtualAlloc
+    VirtualProtect
